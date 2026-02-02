@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>انضم كمطعم - Happy SST</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-gray-800">
+  
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 glass-effect border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-center items-center h-20 sm:h-24 relative">
+        <button id="mobile-menu-btn" class="lg:hidden absolute left-0 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+          <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        
+        <div class="flex items-center gap-3 sm:gap-4">
+          <img src="https://i.ibb.co/BVwx0Tft/FBDC07-CC-E697-457-B-8731-B3-DE48-A573-D4.png" alt="Happy Eats Logo" class="w-16 h-16 sm:w-20 sm:h-20 object-contain">
+          <span class="text-2xl sm:text-3xl font-bold text-gray-800">Happy <span class="text-[#FF6600]">SST</span></span>
+        </div>
+        
+        <div class="hidden lg:flex items-center gap-8 absolute right-0">
+          <a href="index.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الرئيسية</a>
+          <a href="about.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">من نحن</a>
+          <a href="drivers.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كسائق</a>
+          <a href="restaurants.html" class="text-[#FF6600] font-medium">انضم كمطعم</a>
+          <a href="privacy.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الخصوصية</a>
+          <a href="terms.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الشروط</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-100 shadow-lg">
+      <div class="px-4 py-4 space-y-3">
+        <a href="index.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الرئيسية</a>
+        <a href="about.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">من نحن</a>
+        <a href="drivers.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كسائق</a>
+        <a href="restaurants.html" class="block py-2 text-[#FF6600] font-medium">انضم كمطعم</a>
+        <a href="privacy.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">سياسة الخصوصية</a>
+        <a href="terms.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الشروط والأحكام</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Join as Restaurant Section -->
+  <section class="py-32 sm:py-40 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+        <div class="section-animate">
+          <div class="relative">
+            <div class="rounded-3xl overflow-hidden shadow-2xl">
+              <img src="https://i.ibb.co/yMxw2nh/Design-sans-titre-22.png" alt="طباخ Happy Eats" class="w-full h-auto object-cover">
+            </div>
+          </div>
+        </div>
+        
+        <div class="section-animate">
+          <div class="inline-flex items-center gap-2 bg-orange-50 text-[#FF6600] px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+              <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" />
+            </svg>
+            انضم كمطعم شريك
+          </div>
+          
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">اجعل مطعمك جزءاً من <span class="gradient-text">Happy Eats</span> 🍽️</h2>
+          <p class="text-gray-600 leading-relaxed mb-6 sm:mb-8 text-base sm:text-lg">وسّع قاعدة عملائك وزد مبيعاتك من خلال الانضمام لمنصة Happy Eats. نوفر لك كل ما تحتاجه للنجاح في عالم التوصيل الرقمي!</p>
+          
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start gap-3">
+              <div class="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <svg class="w-4 h-4 text-[#FF6600]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">وصول لعملاء جدد</h4>
+                <p class="text-gray-600 text-sm">آلاف المستخدمين ينتظرون اكتشاف مطعمك</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <svg class="w-4 h-4 text-[#FF6600]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">زيادة المبيعات</h4>
+                <p class="text-gray-600 text-sm">متوسط زيادة 40% في الإيرادات</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <svg class="w-4 h-4 text-[#FF6600]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">لوحة تحكم ذكية</h4>
+                <p class="text-gray-600 text-sm">إدارة سهلة للطلبات والمنيو</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <svg class="w-4 h-4 text-[#FF6600]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">دعم تسويقي</h4>
+                <p class="text-gray-600 text-sm">نروّج لمطعمك عبر قنواتنا</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="https://form.jotform.com/" target="_blank" class="inline-flex items-center gap-2 btn-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg shadow-xl">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+            سجل مطعمك الآن
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white pt-12 pb-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="border-t border-gray-800 pt-6 text-center">
+        <p class="text-gray-500 text-sm">© 2025 Happy SST. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

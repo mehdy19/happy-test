@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>من نحن - Happy SST</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="h-full bg-white text-gray-800 overflow-x-hidden">
+  
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 glass-effect border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-center items-center h-20 sm:h-24 relative">
+        <button id="mobile-menu-btn" class="lg:hidden absolute left-0 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+          <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        
+        <div class="flex items-center gap-3 sm:gap-4">
+          <img src="https://i.ibb.co/BVwx0Tft/FBDC07-CC-E697-457-B-8731-B3-DE48-A573-D4.png" alt="Happy Eats Logo" class="w-16 h-16 sm:w-20 sm:h-20 object-contain" loading="lazy">
+          <span class="text-2xl sm:text-3xl font-bold text-gray-800">Happy <span class="text-[#FF6600]">SST</span></span>
+        </div>
+        
+        <div class="hidden lg:flex items-center gap-8 absolute right-0">
+          <a href="index.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الرئيسية</a>
+          <a href="about.html" class="text-[#FF6600] font-medium">من نحن</a>
+          <a href="drivers.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كسائق</a>
+          <a href="restaurants.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كمطعم</a>
+          <a href="privacy.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الخصوصية</a>
+          <a href="terms.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الشروط</a>
+          <a href="index.html#contact" class="btn-primary text-white px-6 py-2.5 rounded-full font-medium shadow-lg">تواصل معنا</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-100 shadow-lg">
+      <div class="px-4 py-4 space-y-3">
+        <a href="index.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الرئيسية</a>
+        <a href="about.html" class="block py-2 text-[#FF6600] font-medium">من نحن</a>
+        <a href="drivers.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كسائق</a>
+        <a href="restaurants.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كمطعم</a>
+        <a href="privacy.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">سياسة الخصوصية</a>
+        <a href="terms.html" class="block py-2 text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الشروط والأحكام</a>
+        <a href="index.html#contact" class="block btn-primary text-white px-6 py-3 rounded-full font-medium text-center shadow-lg">تواصل معنا</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Us Section -->
+  <section class="py-32 sm:py-40 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 sm:mb-16 section-animate">
+        <div class="inline-flex items-center gap-2 bg-[#FF6600]/10 text-[#FF6600] px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+          </svg>
+          تعرف علينا
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">من نحن - <span class="gradient-text">Happy SST</span></h2>
+        <p class="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">نحن شركة تقنية جزائرية رائدة مقرها في ولاية غليزان، نعمل على تحويل الخدمات التقليدية إلى تجارب رقمية متطورة تسهل حياة المستخدمين.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all card-hover section-animate">
+          <div class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-[#FF6600] to-[#FF8533] rounded-xl flex items-center justify-center mb-4 sm:mb-6">
+            <svg class="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">رؤيتنا</h3>
+          <p class="text-gray-600 leading-relaxed">نسعى لأن نكون الخيار الأول للتحول الرقمي في الجزائر، من خلال تقديم حلول تقنية مبتكرة تلبي احتياجات السوق المحلي وتواكب التطور العالمي.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all card-hover section-animate" style="animation-delay: 0.1s;">
+          <div class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 sm:mb-6">
+            <svg class="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">مهمتنا</h3>
+          <p class="text-gray-600 leading-relaxed">تبسيط الحياة اليومية للمستخدمين من خلال توفير خدمات رقمية سهلة الاستخدام، موثوقة، وفعالة تساهم في توفير الوقت والجهد.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all card-hover section-animate md:col-span-2 lg:col-span-1" style="animation-delay: 0.2s;">
+          <div class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-4 sm:mb-6">
+            <svg class="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+            </svg>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">قيمنا</h3>
+          <p class="text-gray-600 leading-relaxed">الابتكار، الجودة، الشفافية، والتزامنا بتقديم أفضل تجربة للمستخدمين والشركاء. نؤمن بقوة التكنولوجيا في تحسين حياة الناس.</p>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-[#FF6600] to-[#FF8533] rounded-3xl p-8 sm:p-12 text-white text-center section-animate">
+        <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">منتجنا الرئيسي: Happy Eats 🍽️</h3>
+        <p class="text-base sm:text-lg leading-relaxed max-w-3xl mx-auto mb-6 sm:mb-8"><strong>Happy Eats</strong> هو بوت ذكي على تيليجرام يتيح لك طلب الطعام من مطاعمك المفضلة بكل سهولة. مع واجهة سلسة، توصيل سريع، ودعم متواصل، نجعل تجربة طلب الطعام أمراً ممتعاً ومريحاً.</p>
+        
+        <div class="flex flex-wrap justify-center gap-4 text-sm sm:text-base mb-8">
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+            واجهة سهلة
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+            توصيل سريع
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+            دفع آمن
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+            دعم 24/7
+          </div>
+        </div>
+
+        <!-- Coming Soon Section -->
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 sm:p-8 border-2 border-white/30 animate-pulse-glow">
+          <div class="flex items-center justify-center gap-3 mb-4">
+            <span class="text-3xl sm:text-4xl">📱</span>
+            <h4 class="text-xl sm:text-2xl lg:text-3xl font-bold">قريباً: تطبيق Happy Eats</h4>
+          </div>
+          <p class="text-base sm:text-lg mb-6 leading-relaxed">نعمل على إطلاق تطبيق Happy Eats الجديد! انضم لقائمة الانتظار واحصل على فرصة تجربة التطبيق قبل الإطلاق الرسمي 🎉</p>
+          <a href="https://forms.zohopublic.com/eurlhappysstgm1/form/HappyEatsWaitingListe/formperma/N1QL0ywNSRFd3aLu80-O2Vb0HZUTtu4n1SzhYPrOwog" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white text-[#FF6600] px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all hover:transform hover:scale-105">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+            </svg>
+            انضم لقائمة الانتظار
+          </a>
+          <p class="text-sm mt-4 opacity-90">⏰ عدد محدود من المقاعد المتاحة للمستخدمين الأوائل!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white pt-12 sm:pt-16 pb-6 sm:pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 sm:mb-12">
+        <div class="sm:col-span-2 lg:col-span-1">
+          <div class="flex items-center gap-4 mb-4 sm:mb-6">
+            <img src="https://i.ibb.co/rR3k1LyG/1.png" alt="Happy SST Logo" class="w-16 h-16 sm:w-20 sm:h-20 object-contain" loading="lazy">
+            <span class="text-2xl sm:text-3xl font-bold">Happy <span class="text-[#FF6600]">SST</span></span>
+          </div>
+          <p class="text-gray-400 leading-relaxed mb-4 sm:mb-6 text-sm sm:text-base">
+            <strong>Happy SST</strong> شركة تقنية جزائرية في <strong>ولاية غليزان</strong> متخصصة في التحول الرقمي. منتجنا الرئيسي <strong>Happy Eats</strong> بوت توصيل الطعام عبر تيليجرام.
+          </p>
+        </div>
+        
+        <div>
+          <h4 class="text-base sm:text-lg font-bold mb-4 sm:mb-6">روابط سريعة</h4>
+          <ul class="space-y-2 sm:space-y-3">
+            <li><a href="index.html" class="text-gray-400 hover:text-[#FF6600] transition-colors text-sm sm:text-base">الرئيسية</a></li>
+            <li><a href="about.html" class="text-gray-400 hover:text-[#FF6600] transition-colors text-sm sm:text-base">من نحن</a></li>
+            <li><a href="drivers.html" class="text-gray-400 hover:text-[#FF6600] transition-colors text-sm sm:text-base">انضم كسائق</a></li>
+            <li><a href="restaurants.html" class="text-gray-400 hover:text-[#FF6600] transition-colors text-sm sm:text-base">انضم كمطعم</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-base sm:text-lg font-bold mb-4 sm:mb-6">سياساتنا</h4>
+          <ul class="space-y-2 sm:space-y-3">
+            <li><a href="privacy.html" class="text-gray-400 hover:text-[#FF6600] transition-colors text-sm sm:text-base">سياسة الخصوصية</a></li>
+            <li><a href="terms.html" class="text-gray-400 hover:text-[#FF6600] transition-colors text-sm sm:text-base">الشروط والأحكام</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-base sm:text-lg font-bold mb-4 sm:mb-6">تواصل معنا</h4>
+          <ul class="space-y-2 sm:space-y-3">
+            <li class="flex items-center gap-2 sm:gap-3 text-gray-400 text-sm sm:text-base">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#FF6600]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              info@happysst.com
+            </li>
+            <li class="flex items-center gap-2 sm:gap-3 text-gray-400 text-sm sm:text-base">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#FF6600]" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              ولاية غليزان، الجزائر
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-800 pt-6 sm:pt-8 text-center">
+        <p class="text-gray-500 text-xs sm:text-sm">© 2025 Happy SST. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
