@@ -1,3 +1,6 @@
+/* =======================
+   Global
+======================= */
 body {
   box-sizing: border-box;
 }
@@ -115,3 +118,27 @@ body {
 @view-transition {
   navigation: auto;
 }
+/* Restaurant Partners Section Styles */
+
+/* Hide scrollbar but keep functionality */
+.hide-scrollbar { ... }
+
+/* Smooth scroll behavior */
+.partners-scroll-container { ... }
+
+/* Scroll snap items */
+.scroll-snap-item { ... }
+
+/* Grab cursor effect */
+.cursor-grab { ... }
+.cursor-grab:active { ... }
+
+/* Prevent text selection */
+.select-none { ... }
+
+/* Partners hover effects */
+#partners .scroll-snap-item:hover { ... }
+#partners img { ... }
+
+/* RTL Support */
+[dir="rtl"] .partners-scroll-container { ... }
