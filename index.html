@@ -16,27 +16,33 @@
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 right-0 z-50 glass-effect border-b border-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-center items-center h-20 sm:h-24 relative">
-        <button id="mobile-menu-btn" class="lg:hidden absolute left-0 p-2 rounded-lg hover:bg-gray-100 transition-colors">
-          <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+      <div class="flex justify-between items-center h-20 sm:h-24">
+        <!-- Left: Mobile Menu Button -->
+        <div class="lg:hidden w-16 flex items-center">
+          <button id="mobile-menu-btn" class="p-2 rounded-lg hover:bg-gray-100 transition-colors">
+            <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
         
         <div class="flex items-center gap-3 sm:gap-4">
-          <img src="https://i.ibb.co/rR3k1LyG/1.png" alt="Happy Eats Logo" class="w-16 h-16 sm:w-20 sm:h-20 object-contain" loading="lazy">
-          <span class="text-2xl sm:text-3xl font-bold text-gray-800">Happy <span class="text-[#FF6600]">SST</span></span>
+          <img src="https://i.ibb.co/rR3k1LyG/1.png" alt="Happy SST Logo" class="w-16 h-16 sm:w-20 sm:h-20 object-contain" loading="lazy">
+          <span class="text-2xl sm:text-3xl font-bold"><span class="text-[#FF6600]">Happy</span> <span class="text-gray-800">SST</span></span>
         </div>
         
-        <div class="hidden lg:flex items-center gap-8 absolute right-0">
-          <a href="index.html" class="text-[#FF6600] font-medium">الرئيسية</a>
-          <a href="about.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">من نحن</a>
-          <a href="#drivers" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كسائق</a>
-          <a href="#restaurants" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">انضم كمطعم</a>
-          <a href="privacy.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الخصوصية</a>
-          <a href="terms.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium">الشروط</a>
-          <a href="#contact" class="btn-primary text-white px-6 py-2.5 rounded-full font-medium shadow-lg">تواصل معنا</a>
+        <div class="hidden lg:flex items-center gap-6 xl:gap-8">
+          <a href="index.html" class="text-[#FF6600] font-medium whitespace-nowrap">الرئيسية</a>
+          <a href="about.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium whitespace-nowrap">من نحن</a>
+          <a href="#drivers" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium whitespace-nowrap">انضم كسائق</a>
+          <a href="#restaurants" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium whitespace-nowrap">انضم كمطعم</a>
+          <a href="privacy.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium whitespace-nowrap">الخصوصية</a>
+          <a href="terms.html" class="text-gray-600 hover:text-[#FF6600] transition-colors font-medium whitespace-nowrap">الشروط</a>
+          <a href="#contact" class="btn-primary text-white px-5 py-2 rounded-full font-medium shadow-lg whitespace-nowrap">تواصل معنا</a>
         </div>
+        
+        <!-- Spacer for mobile -->
+        <div class="lg:hidden w-16"></div>
       </div>
     </div>
     
@@ -52,7 +58,7 @@
       </div>
     </div>
   </nav>
-
+  
   <!-- Hero Section -->
   <section id="home" class="hero-gradient relative min-h-screen flex items-center pt-20 overflow-hidden">
     <div class="decorative-circle w-64 h-64 sm:w-96 sm:h-96 -top-20 -right-20 animate-rotate-slow"></div>
